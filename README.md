@@ -12,7 +12,7 @@
 
 </div>
 
-<h4 align="center">Colorizing Black&White Japanese Manga with Generative Adversarial Network.</h4>
+<h4 align="center">Colorizing Black&White Japanese Manga using Generative Adversarial Network.</h4>
 
 <p align="center">
   <img 
@@ -24,5 +24,7 @@
 
 # About the Project
 ![personal](https://img.shields.io/badge/project-chandlertimmdoloriel-red?style=for-the-badge&logo=appveyor)
+
+Japanese manga is popular in all ages and all countries. Anime like One Piece, Naruto, Bleach are products of great authors who write manga as their career. However, japanese manga are released as black-and-white and for someone new to reading manga, it may be difficult to imagine or follow the story along the pages. Most of the time, these manga are remained black-and-white by the authors until anime debut with just few pages colored. It is also time-consuming to manually color because every single page contains many panels along with different scenes, acts, and characters. Inspired with this problem, I created an automatic colorization program using artificial intelligence to automate the coloring processes of japanese manga.
 
 ## Dataset
