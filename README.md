@@ -48,7 +48,7 @@ One Piece
 
 ## Model
 
-For training and inference, I used [MmGeneration](https://github.com/open-mmlab/mmgeneration) codebase. This is a great toolbox because I can easily change the hyperparameters for training. I used model [CycleGAN](https://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html) since my dataset is unpaired, meaning a black-and-white image does not necessary have a colored counterpart. Also, one-to-one paired image in manga is difficult to obtain because usually the colored images are just fan-made while the black-and-white are official release.
+For training and inference, I used [MMGeneration](https://github.com/open-mmlab/mmgeneration) codebase. This is a great toolbox because I can easily change the hyperparameters for training. I used model [CycleGAN](https://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html) since my dataset is unpaired, meaning a black-and-white image does not necessary have a colored counterpart. Also, one-to-one paired image in manga is difficult to obtain because usually the colored images are just fan-made while the black-and-white are official release.
 
 For the [configuration](https://github.com/open-mmlab/mmgeneration/tree/master/configs/cyclegan), I set the image size `(width, height) = (512, 732)`, `num_iters = 250k`, and `optimizer = Adam`. I actually rented a GPU from [Vast.ai](https://vast.ai/console/instances/), thankfully is was just cheap at $0.260 per hour for RTX A5000. The training lasted for ~2 days but the result was super good. 
 
